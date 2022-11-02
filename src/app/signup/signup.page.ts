@@ -10,6 +10,8 @@ export class SignupPage implements OnInit {
   public email:any;
   public password:any;
   public name:any;
+  public telefono:any;
+
   constructor(
     public fireService:FireserviceService
   ) { }
@@ -24,6 +26,7 @@ export class SignupPage implements OnInit {
           email:this.email,
           password:this.password,
           name:this.name,
+          telefono:this.telefono,
           uid:res.user.uid
         }
         this.fireService.saveDetails(data).then(res=>{

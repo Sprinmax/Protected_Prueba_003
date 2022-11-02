@@ -7,13 +7,12 @@ export const environment = {
 
 
 firebase: {
-  apiKey: "AIzaSyC6cksKE_oDjBas_PS35QyOzlQNJkF31qk",
-  authDomain: "protectedtest-b23f1.firebaseapp.com",
-  projectId: "protectedtest-b23f1",
-  storageBucket: "protectedtest-b23f1.appspot.com",Dragon
-  messagingSenderId: "965710841744",
-  appId: "1:965710841744:web:2976124626d77dc0d11515",
-  measurementId: "G-MLL9SK9FQT"
+  apiKey: "AIzaSyA6zN9HYCh4Dirjmmce7OA6SPwzyiUJEXo",
+  authDomain: "protected-c349d.firebaseapp.com",
+  projectId: "protected-c349d",
+  storageBucket: "protected-c349d.appspot.com",
+  messagingSenderId: "1013756290334",
+  appId: "1:1013756290334:web:cc105e21517a3b45a3950f"
   }
 };
 /*
