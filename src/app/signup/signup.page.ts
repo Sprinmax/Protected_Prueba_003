@@ -11,6 +11,7 @@ export class SignupPage implements OnInit {
   public password:any;
   public name:any;
   public telefono:any;
+  public pais:any;
 
   constructor(
     public fireService:FireserviceService
@@ -27,16 +28,18 @@ export class SignupPage implements OnInit {
           password:this.password,
           name:this.name,
           telefono:this.telefono,
+          pais:this.pais,
           uid:res.user.uid
         }
         this.fireService.saveDetails(data).then(res=>{
-         alert('Account Created!');
+         alert('Cuenta creada con exito');
         },err=>{
           console.log(err);
         })
       }
     },err=>{
-      alert(err.message);
+      alert('Tu cuenta existe, por favor crear otra, recordá que la contraseña debe ser mas de 6 caracteres');
+      // err.message
 
       console.log(err);
     })

@@ -10,6 +10,7 @@ export class AppComponent {
     { title: 'Cuenta', url: '/cuenta', icon: 'person' },
     { title: 'Configuracion', url: '/configuracion', icon: 'construct' },
     { title: 'Llamar', url: '/aquienvasallamar', icon: 'call' },
+    { title: 'Localizame', url: '/localizame', icon: 'location' },
     { title: 'Login', url: '/login', icon: 'person' },
     { title: 'Signup', url: '/signup', icon: 'person' },
   ];
