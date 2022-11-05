@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\android",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\cuenta",
     "\\src\\app\\login",
+    "\\src\\app\\passwordreset",
     "\\src\\app\\signup",
-    "\\src\\environments"
+    "\\src\\environments",
+    "\\src\\theme"
   ],
-  "SelectedNode": "\\src\\app\\cuenta\\cuenta.module.ts",
+  "SelectedNode": "\\src\\app\\app.component.ts",
   "PreviewInSolutionExplorer": false
 }

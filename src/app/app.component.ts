@@ -13,6 +13,7 @@ export class AppComponent {
     { title: 'Localizame', url: '/localizame', icon: 'location' },
     { title: 'Login', url: '/login', icon: 'person' },
     { title: 'Signup', url: '/signup', icon: 'person' },
+    { title: 'Restablecer contraseña', url: '/passwordreset', icon: 'refresh-circle' },
   ];
   constructor() {}
 }

@@ -41,4 +41,7 @@ export class LoginPage implements OnInit {
   signup(){
     this.router.navigateByUrl('signup');
   }
+  passwordreset(){
+    this.router.navigateByUrl('passwordreset');
+  }
 }

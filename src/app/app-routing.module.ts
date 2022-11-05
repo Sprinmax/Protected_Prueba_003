@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: 'localizame',
     loadChildren: () => import('./localizame/localizame.module').then( m => m.LocalizamePageModule)
+  },
+  {
+    path: 'passwordreset',
+    loadChildren: () => import('./passwordreset/passwordreset.module').then( m => m.PasswordresetPageModule)
   }
 ];
 
